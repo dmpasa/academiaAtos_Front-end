@@ -4,6 +4,20 @@ Classe (inicia com ".") = VALOR 10
 Identificador (inicia com "#") = VALOR 100
 Inline (no próprio elemento "style=...") = VALOR 1000
 */
+@media (max-width: 985px){
+  img {
+    width: 100%;
+  }
+}
+
+@media print {
+  img {
+    display: none;
+  }
+  h2 {
+    color: red;
+  }
+}
 
 body {
   text-align: justify;
