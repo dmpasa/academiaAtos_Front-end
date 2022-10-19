@@ -1,0 +1,18 @@
+Desenvolva, utilizando marcações HTML e estilos em CSS, uma tabela periódica.
+A tabela periódica precisa ser o conteúdo principal da tela e conter as informações essenciais para que qualquer usuário interessado nesse tipo de  conteúdo possa tê-la como ferramenta de apoio.
+Os requisitos desse projeto, além do solicitado acima, são:
+* Ao passar o mouse sobre um elemento ele deve ganhar destaque em relação aos demais.
+* Todos os elementos devem ser "clicáveis". Ao clicar o usuário deve obter mais detalhes sobre o elemento em questão.
+* A tabela periódica precisa possuir uma legenda, para que o usuário tenha uma referência dos dados apresentados na sua tela.
+
+** O QUE SERÁ AVALIADO NESSE EXERCÍCIO
+* Solução encontrada para o "problema" apresentado.
+* Utilização adequada de tags
+* Uso inteligente de classes e elementos no CSS.
+
+** ATENÇÃO
+O resultado visual (aparência) não é determinante para a avaliação do exercício. Bem como não serão acrescidas pontuações para a utilização de outros códigos que não sejam exclusivamente HTML e CSS.
+
+Data limite de entrega: 25/10/2022 23:59
+Local de entrega: GitHub pessoal (Formulário para informar os seus dados: https://forms.office.com/r/rspvC88Enx)
+Apresentação: 01/11/2022
