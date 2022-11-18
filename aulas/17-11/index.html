@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script defer src="./main.js"></script>
+    <style>
+        .dia-semana {
+            font-weight: bold;
+            color: tomato;
+            text-transform:uppercase;
+        }
+    </style>
+    <title>JavaScript - Exemplos</title>
+</head>
+<body>
+    <div class="container py-5">
+        <div class="p-5 mb-4 bg-dark text-white rounded-3">
+            <div class="container-fluid py-5">
+              <h1 class="display-5 fw-bold">JavaScript - Exemplos</h1>
+              <p class="col-md-8 lead">Página com algumas das diversas utilizações para a linguagem de script em alto nível, com tipagem dinâmica fraca e multiparadigma.</p>
+            </div>
+        </div>
+        <div class="p-5 mb-4 bg-light rounded-3">
+            <div class="container-fluid py-5">
+              <h2 class="display-7 fw-bold">Exemplo 1</h2>
+              <p class="col-md-8 lead">Ao clicar no botão, o navegador exibirá um alerta para o usuário.</p>
+              <button id="btn-exemplo-1" class="btn btn-primary">Exibir alerta</button>
+            </div>
+        </div>
+        <div class="p-5 mb-4 bg-light rounded-3">
+            <div class="container-fluid py-5">
+              <h2 class="display-7 fw-bold">Exemplo 2</h2>
+              <p id="p-exemplo-2" class="col-md-8 lead">Ao clicar no botão, o texto deste parágrafo será substituído.
+            </p>
+              <button id="btn-exemplo-2" class="btn btn-warning">Substituir texto</button>
+            </div>
+        </div>
+        <div id="exemplo-3" class="p-5 mb-4 bg-light rounded-3">
+            <div class="container-fluid py-5">
+              <h2 class="display-7 fw-bold">Exemplo 3</h2>
+              <p class="col-md-8 lead">O "Exemplo 3" será ocultado assim que o botão for pressionado.
+            </p>
+            <button id="btn-exemplo-3" class="btn btn-danger">Ocultar exemplo</button>
+            </div>
+        </div>
+        <div class="p-5 mb-4 bg-light rounded-3">
+            <div class="container-fluid py-5">
+              <h2 class="display-7 fw-bold">Exemplo 4</h2>
+              <p class="col-md-8 lead">Os botões "ligam" e "desligam" da lâmpada.
+              <img class="lampada" src="images/lamp-off.png" alt="Lâmpada apagada" width="64">
+            </p>
+            <div class="btn-group" role="group">
+                <button id="btn-on" type="button" class="btn btn-outline-success">On</button>
+                <button id="btn-off" type="button" class="btn btn-outline-danger">Off</button>
+              </div>
+            </div>
+        </div>
+        <div class="p-5 mb-4 bg-light rounded-3">
+            <div class="container-fluid py-5">
+              <h2 class="display-7 fw-bold">Exemplo 5</h2>
+              <p class="col-md-8 lead">O console do navegador imprime a área de um círculo com raio 3.</p>
+            </div>
+        </div>
+        <div class="p-5 mb-4 bg-light rounded-3">
+            <div class="container-fluid py-5">
+              <h2 class="display-7 fw-bold">Exemplo 6</h2>
+              <p class="col-md-8 lead">A mensagem do card abaixo é dinâmicamente alterada de acordo com o dia da semana em que a página foi carregada.</p>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                  Hoje é <span class="dia-semana"></span>. E isso é legal, não é!?
+                </div>
+            </div>
+        </div>
+        <div class="p-5 mb-4 bg-light rounded-3">
+            <div class="container-fluid py-5">
+              <h2 class="display-7 fw-bold">Exemplo 7</h2>
+              <p class="col-md-8 lead">Converte a temperatura em grau celcius para farenheit.</p>
+            </div>
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="input-group mb-3">
+                        <input type="number" class="form-control" placeholder="Temperatura">
+                        <span class="input-group-text">ºC</span>
+                      </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="d-grid gap-2">
+                        <button class="btn btn-info" type="button">Converter </button>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="0" disabled>
+                        <span class="input-group-text">ºF</span>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
