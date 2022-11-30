@@ -9,7 +9,7 @@ O jogo finaliza se o cronômetro zerar antes que o jogador clique na cor correta
 *** Layout do jogo:
 O jogador deverá visualizar uma tela indicando o atual nível da partida, um cronômetro, um botão para início/reinício da partida e os componentes principais do jogo (alvo e botões)
 O jogo deve ter um número mínimo de 9 alvos (cores a serem sorteadas).
-Antes de entrar na partida o jogador poderá ver o ranking com os 10 maiores pontuadores do jogo (arquivo JSON).
+Antes de entrar na partida o jogador poderá ver o ranking com os 10 maiores pontuadores do jogo (JSON).
 Ao finalizar a partida ele verá sua pontuação e poderá incluir seu nome nesse ranking se achar pertinente.
 
 *** Mecânica do jogo:
