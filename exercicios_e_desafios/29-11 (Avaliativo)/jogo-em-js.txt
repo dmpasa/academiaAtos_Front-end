@@ -1,0 +1,35 @@
+Jogo em HTML, CSS e JavaScript
+
+*** Objetivo do jogo:
+O jogador deve clicar no botão com a cor correspondente ao “alvo”.
+O alvo é definido pela cor em que a palavra gerada na tela for escrita.
+A cada clique correto soma-se um ponto e então inicia-se uma nova rodada, o jogo irá gerar uma nova palavra com uma nova cor de alvo.
+O jogo finaliza se o cronômetro zerar antes que o jogador clique na cor correta. Ou então, se o jogador clicar na cor que não corresponda ao alvo.
+
+*** Layout do jogo:
+O jogador deverá visualizar uma tela indicando o atual nível da partida, um cronômetro, um botão para início/reinício da partida e os componentes principais do jogo (alvo e botões)
+Antes de entrar na partida o jogador poderá ver o ranking com os 10 maiores pontuadores do jogo (arquivo JSON).
+Ao finalizar a partida ele verá sua pontuação e poderá incluir seu nome nesse ranking se achar pertinente.
+
+*** Mecânica do jogo:
+Os botões sempre devem ser embaralhados a cada nova partida.
+A cada 10 pontos a partida sobe um nível.
+Os níveis implicam em mudanças na dinâmica da partida. São elas:
+** Nível 1
+Tempo para acertar o alvo é de 3 segundos
+** Nível 2:
+Tempo para acertar o alvo é de 2 segundos
+** Nível 3
+Tempo para acertar o alvo é de 2 segundos e os botões devem ser embaralhados a cada rodada
+** Nível 4
+Tempo para acertar o alvo é de 1.7 segundos e os botões devem ser embaralhados a cada rodada
+** Nível 5
+Tempo para acertar o alvo é de 1.5 segundos e os botões devem ser embaralhados a cada rodada
+** Nível 6
+Tempo para acertar o alvo é de 1 segundos e os botões devem ser embaralhados a cada rodada
+
+
+*** Sobre a avaliação do desafio
+O jogo deve ser "jogável" e com uma estrutura mínima resistente a falhas, contudo, terá maior peso avaliativo a manipulação e interação do JS com os elementos da tela (escolhas inteligentes de solução para o proposto).
+O layout e escolha dos elementos para compor as telas do jogo são livres.
+Contribuições para a mecânica do jogo também serão consideradas.
