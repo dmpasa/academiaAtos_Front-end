@@ -34,3 +34,6 @@ Tempo para acertar o alvo é de 1 segundos e os botões devem ser embaralhados a
 O jogo deve ser "jogável" e com uma estrutura mínima resistente a falhas, contudo, terá maior peso avaliativo a manipulação e interação do JS com os elementos da tela (escolhas inteligentes de solução para o proposto).
 O layout e escolha dos elementos para compor as telas do jogo são livres.
 Contribuições para a mecânica do jogo também serão consideradas.
+
+*** Data de entrega e apresentação
+Dia 06/12/2022, apresentação rápida, nos moldes da apresentação do projeto final.
